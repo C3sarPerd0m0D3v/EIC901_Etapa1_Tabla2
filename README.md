@@ -233,7 +233,7 @@ IB ≈ 4,3 mA
 
 ---
 
-## 🏁 Resultado final
+## Resultado final
 
 > **El sistema implementa correctamente la lógica de votación 2 de 3 y controla una carga inductiva mediante una interfaz BJT, obteniendo resultados correctos en las 8 combinaciones de entrada evaluadas.**
 
