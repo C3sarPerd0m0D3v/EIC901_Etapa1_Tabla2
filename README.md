@@ -4,7 +4,7 @@
        width="100%">
 </p>
 
-<h1 align="center">🔥 EIC901 — Etapa 1</h1>
+<h1 align="center"> EIC901 — Etapa 1</h1>
 
 <p align="center">
   <strong>Sistema de extinción por votación 2 de 3</strong><br>
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 Este proyecto implementa un **sistema de extinción por votación 2 de 3 con detector de lazo cerrado**.
 
@@ -41,7 +41,7 @@ F = 1 → Actuador activado
 
 ---
 
-## ⚙️ Funcionamiento general
+##  Funcionamiento general
 
 ```mermaid
 flowchart LR
@@ -69,7 +69,7 @@ La etapa de potencia utiliza:
 
 ---
 
-## 🧠 Función lógica
+##  Función lógica
 
 ### Función canónica
 
@@ -92,7 +92,7 @@ F = AB + C'(A + B)
 
 ---
 
-## 🔌 Circuito combinacional
+##  Circuito combinacional
 
 | Integrado | Función |
 |---|---|
@@ -113,7 +113,7 @@ F = P + R
 
 ---
 
-## 🎨 Código de colores
+##  Código de colores
 
 | Color | Uso |
 |---|---|
@@ -128,7 +128,7 @@ F = P + R
 
 ---
 
-## 🔋 Interfaz BJT
+##  Interfaz BJT
 
 La etapa de potencia utiliza un transistor NPN como **interruptor de lado bajo**.
 
@@ -156,7 +156,7 @@ El diodo flyback se conecta en paralelo con la carga inductiva para proteger la 
 
 ---
 
-## 🧮 Cálculos eléctricos
+##  Cálculos eléctricos
 
 ### Corriente de base
 
@@ -184,7 +184,7 @@ IB ≈ 4,3 mA
 
 ---
 
-## ✅ Validación del circuito
+##  Validación del circuito
 
 | Prueba | A | B | C | F esperada | F obtenida | Resultado |
 |---:|---:|---:|---:|---:|---:|---|
@@ -201,20 +201,20 @@ IB ≈ 4,3 mA
 
 ---
 
-## 📂 Documentación del proyecto
+##  Documentación del proyecto
 
 | Recurso | Ubicación |
 |---|---|
-| 🧮 Cálculos y pruebas | [`02_Calculos`](./02_Calculos/) |
-| 🧩 Diagramas | [`03_Diagramas`](./03_Diagramas/) |
-| 🔌 Archivos de Tinkercad | [`03_Diagramas/Tinkercad`](./03_Diagramas/Tinkercad/) |
-| 📸 Capturas y evidencias | [`04_Capturas`](./04_Capturas/) |
-| 🎥 Video de funcionamiento | [`04_Capturas/Video`](./04_Capturas/Video/) |
-| 📄 Informe final | [`05_Informe`](./05_Informe/) |
+|  Cálculos y pruebas | [`02_Calculos`](./02_Calculos/) |
+|  Diagramas | [`03_Diagramas`](./03_Diagramas/) |
+|  Archivos de Tinkercad | [`03_Diagramas/Tinkercad`](./03_Diagramas/Tinkercad/) |
+|  Capturas y evidencias | [`04_Capturas`](./04_Capturas/) |
+|  Video de funcionamiento | [`04_Capturas/Video`](./04_Capturas/Video/) |
+|  Informe final | [`05_Informe`](./05_Informe/) |
 
 ---
 
-## 🎯 Estado de la Etapa 1
+##  Estado de la Etapa 1
 
 - [x] Tabla de verdad analizada
 - [x] Función canónica derivada
@@ -238,5 +238,5 @@ IB ≈ 4,3 mA
 > **El sistema implementa correctamente la lógica de votación 2 de 3 y controla una carga inductiva mediante una interfaz BJT, obteniendo resultados correctos en las 8 combinaciones de entrada evaluadas.**
 
 <p align="center">
-  <strong>✅ ETAPA 1 COMPLETADA</strong>
+  <strong> ETAPA 1 COMPLETADA</strong>
 </p>
